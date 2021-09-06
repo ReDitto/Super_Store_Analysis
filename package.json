@@ -35,4 +35,14 @@
     ],
     "development": [
       "last 1 chrome version",
-    
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "flow-bin": "^0.188.1",
+    "husky": "^8.0.3",
+    "prettier": "2.8.4",
+    "pretty-quick": "^3.1.3"
+  }
+}
