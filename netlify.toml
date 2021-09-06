@@ -1,0 +1,11 @@
+
+[[redirects]]
+  from = "https://traceurl.netlify.com/*"
+  to = "https://traceurl.catchen.app/:splat"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
