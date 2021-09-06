@@ -17,4 +17,11 @@ const Analytics = {
   ): void => {
     window.gtag('event', action, {
       non_interaction: !interaction,
-      even
+      event_category: category,
+      event_label: label,
+      value: value,
+    });
+  },
+};
+
+export default Analytics;
