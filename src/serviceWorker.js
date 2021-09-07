@@ -41,4 +41,29 @@ export function register(config) {
         // Add some additional logging to localhost, pointing developers to the
         // service worker/PWA documentation.
         navigator.serviceWorker.ready.then(() => {
-          consol
+          console.log(
+            'This web app is being served cache-first by a service ' +
+              'worker. To learn more, visit https://bit.ly/CRA-PWA',
+          );
+        });
+      } else {
+        // Is not localhost. Just register service worker
+        registerValidSW(swUrl, config);
+      }
+    });
+  }
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker
+    .register(swUrl)
+    .then((registration) => {
+      registration.onupdatefound = () => {
+        const installingWorker = registration.installing;
+        if (installingWorker == null) {
+          return;
+        }
+        installingWorker.onstatechange = () => {
+          if (installingWorker.state === 'installed') {
+            if (navigator.serviceWorker.controller) {
+              // At this point, the
