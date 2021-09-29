@@ -865,4 +865,17 @@
   version "7.18.6"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-sticky-regex/-/plugin-transform-sticky-regex-7.18.6.tgz#c6706eb2b1524028e317720339583ad0f444adcc"
   integrity sha512-kfiDrDQ+PBsQDO85yj1icueWMfGfJFKN1KCkndygtu/C9+XUfydLC8Iv5UYJqRwy4zk8EcplRxEOeLyjq1gm6Q==
-  depende
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.18.6"
+
+"@babel/plugin-transform-template-literals@^7.18.6":
+  version "7.18.6"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-template-literals/-/plugin-transform-template-literals-7.18.6.tgz#b763f4dc9d11a7cce58cf9a490d82e80547db9c2"
+  integrity sha512-UuqlRrQmT2SWRvahW46cGSany0uTlcj8NYOS5sRGYi8FxPYPoLd5DDmMd32ZXEj2Jq+06uGVQKHxa/hJx2EzKw==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.18.6"
+
+"@babel/plugin-transform-typeof-symbol@^7.18.6":
+  version "7.18.6"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-typeof-symbol/-/plugin-transform-typeof-symbol-7.18.6.tgz#486bb39d5a18047358e0d04dc0d2f322f0b92e92"
+  integrity sha512-7m71iS/QhsPk85xSj
