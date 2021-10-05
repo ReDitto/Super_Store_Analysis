@@ -1125,4 +1125,14 @@
 
 "@csstools/postcss-normalize-display-values@^1.0.0":
   version "1.0.1"
-  resolved "htt
+  resolved "https://registry.yarnpkg.com/@csstools/postcss-normalize-display-values/-/postcss-normalize-display-values-1.0.1.tgz#15da54a36e867b3ac5163ee12c1d7f82d4d612c3"
+  integrity sha512-jcOanIbv55OFKQ3sYeFD/T0Ti7AMXc9nM1hZWu8m/2722gOTxFg7xYu4RDLJLeZmPUVQlGzo4jhzvTUq3x4ZUw==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+"@csstools/postcss-oklab-function@^1.1.0":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@csstools/postcss-oklab-function/-/postcss-oklab-function-1.1.1.tgz#88cee0fbc8d6df27079ebd2fa016ee261eecf844"
+  integrity sha512-nJpJgsdA3dA9y5pgyb/UfEzE7W5Ka7u0CX0/HIMVBNWzWemdcTH3XwANECU6anWv/ao4vVNLTMxhiPNZsTK6iA==
+  dependencies:
+    "@csstools/postcss-progressive-custom-properties" "^1.1.0
