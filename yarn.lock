@@ -1109,4 +1109,20 @@
 
 "@csstools/postcss-ic-unit@^1.0.0":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@csstools/postcss-ic-unit/-/postcss-ic-unit-1.0.1.tgz#28237d812a124d1a1
+  resolved "https://registry.yarnpkg.com/@csstools/postcss-ic-unit/-/postcss-ic-unit-1.0.1.tgz#28237d812a124d1a16a5acc5c3832b040b303e58"
+  integrity sha512-Ot1rcwRAaRHNKC9tAqoqNZhjdYBzKk1POgWfhN4uCOE47ebGcLRqXjKkApVDpjifL6u2/55ekkpnFcp+s/OZUw==
+  dependencies:
+    "@csstools/postcss-progressive-custom-properties" "^1.1.0"
+    postcss-value-parser "^4.2.0"
+
+"@csstools/postcss-is-pseudo-class@^2.0.6":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@csstools/postcss-is-pseudo-class/-/postcss-is-pseudo-class-2.0.7.tgz#846ae6c0d5a1eaa878fce352c544f9c295509cd1"
+  integrity sha512-7JPeVVZHd+jxYdULl87lvjgvWldYu+Bc62s9vD/ED6/QTGjy0jy0US/f6BG53sVMTBJ1lzKZFpYmofBN9eaRiA==
+  dependencies:
+    "@csstools/selector-specificity" "^2.0.0"
+    postcss-selector-parser "^6.0.10"
+
+"@csstools/postcss-normalize-display-values@^1.0.0":
+  version "1.0.1"
+  resolved "htt
