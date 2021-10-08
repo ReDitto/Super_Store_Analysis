@@ -1222,4 +1222,27 @@
 "@jest/console@^27.5.1":
   version "27.5.1"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-27.5.1.tgz#260fe7239602fe5130a94f1aa386eff54b014bba"
-  integrity sha512-kZ/tNpS3NXn0mlXXXPNuDZnb4c0oZ20r4K5eem
+  integrity sha512-kZ/tNpS3NXn0mlXXXPNuDZnb4c0oZ20r4K5eemM2k30ZC3G0T02nXUvyhf5YdbXWHPEJLc9qGLxEZ216MdL+Zg==
+  dependencies:
+    "@jest/types" "^27.5.1"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    jest-message-util "^27.5.1"
+    jest-util "^27.5.1"
+    slash "^3.0.0"
+
+"@jest/console@^28.1.1":
+  version "28.1.1"
+  resolved "https://registry.yarnpkg.com/@jest/console/-/console-28.1.1.tgz#305f8ca50b6e70413839f54c0e002b60a0f2fd7d"
+  integrity sha512-0RiUocPVFEm3WRMOStIHbRWllG6iW6E3/gUPnf4lkrVFyXIIDeCe+vlKeYyFOMhB2EPE6FLFCNADSOOQMaqvyA==
+  dependencies:
+    "@jest/types" "^28.1.1"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    jest-message-util "^28.1.1"
+    jest-util "^28.1.1"
+    slash "^3.0.0"
+
+"@jest/core@^27.5.1":
+  version "27.5.1"
+  resolved "https://registry.yarnpkg.com/@jest/core/-/core-27.5.1.tgz#267ac5f704e09dc52de2922cbf3af9
