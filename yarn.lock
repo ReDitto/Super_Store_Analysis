@@ -5187,4 +5187,21 @@ jake@^10.8.5:
 
 jest-changed-files@^27.5.1:
   version "27.5.1"
-  resolved "https://registry.yarnpkg.com/jest-changed-fi
+  resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-27.5.1.tgz#a348aed00ec9bf671cc58a66fcbe7c3dfd6a68f5"
+  integrity sha512-buBLMiByfWGCoMsLLzGUUSpAmIAGnbR2KJoMN10ziLhOLvP4e0SlypHnAel8iqQXTrcbmfEY9sSqae5sgUsTvw==
+  dependencies:
+    "@jest/types" "^27.5.1"
+    execa "^5.0.0"
+    throat "^6.0.1"
+
+jest-circus@^27.5.1:
+  version "27.5.1"
+  resolved "https://registry.yarnpkg.com/jest-circus/-/jest-circus-27.5.1.tgz#37a5a4459b7bf4406e53d637b49d22c65d125ecc"
+  integrity sha512-D95R7x5UtlMA5iBYsOHFFbMD/GVA4R/Kdq15f7xYWUfWHBto9NYRsOvnSauTgdF+ogCpJ4tyKOXhUifxS65gdw==
+  dependencies:
+    "@jest/environment" "^27.5.1"
+    "@jest/test-result" "^27.5.1"
+    "@jest/types" "^27.5.1"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    co "^4.6
