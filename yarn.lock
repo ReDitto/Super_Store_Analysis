@@ -5293,4 +5293,21 @@ jest-each@^27.5.1:
     chalk "^4.0.0"
     jest-get-type "^27.5.1"
     jest-util "^27.5.1"
-    pr
+    pretty-format "^27.5.1"
+
+jest-environment-jsdom@^27.5.1:
+  version "27.5.1"
+  resolved "https://registry.yarnpkg.com/jest-environment-jsdom/-/jest-environment-jsdom-27.5.1.tgz#ea9ccd1fc610209655a77898f86b2b559516a546"
+  integrity sha512-TFBvkTC1Hnnnrka/fUb56atfDtJ9VMZ94JkjTbggl1PEpwrYtUBKMezB3inLmWqQsXYLcMwNoDQwoBTAvFfsfw==
+  dependencies:
+    "@jest/environment" "^27.5.1"
+    "@jest/fake-timers" "^27.5.1"
+    "@jest/types" "^27.5.1"
+    "@types/node" "*"
+    jest-mock "^27.5.1"
+    jest-util "^27.5.1"
+    jsdom "^16.6.0"
+
+jest-environment-node@^27.5.1:
+  version "27.5.1"
+  resolved "https://registry.yarnpkg.com/jest-environment-node/-/jest-environment-node-27.5.1.tgz#dedc2cfe52fab6b8f5714b4808aefa
