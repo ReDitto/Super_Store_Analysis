@@ -5388,4 +5388,25 @@ jest-matcher-utils@^27.5.1:
 
 jest-message-util@^27.5.1:
   version "27.5.1"
-  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-27.5.1.tgz#bdda72806da10d9ed6425
+  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-27.5.1.tgz#bdda72806da10d9ed6425e12afff38cd1458b6cf"
+  integrity sha512-rMyFe1+jnyAAf+NHwTclDz0eAaLkVDdKVHHBFWsBWHnnh5YeJMNWWsv7AbFYXfK3oTqvL7VTWkhNLu1jX24D+g==
+  dependencies:
+    "@babel/code-frame" "^7.12.13"
+    "@jest/types" "^27.5.1"
+    "@types/stack-utils" "^2.0.0"
+    chalk "^4.0.0"
+    graceful-fs "^4.2.9"
+    micromatch "^4.0.4"
+    pretty-format "^27.5.1"
+    slash "^3.0.0"
+    stack-utils "^2.0.3"
+
+jest-message-util@^28.1.1:
+  version "28.1.1"
+  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-28.1.1.tgz#60aa0b475cfc08c8a9363ed2fb9108514dd9ab89"
+  integrity sha512-xoDOOT66fLfmTRiqkoLIU7v42mal/SqwDKvfmfiWAdJMSJiU+ozgluO7KbvoAgiwIrrGZsV7viETjc8GNrA/IQ==
+  dependencies:
+    "@babel/code-frame" "^7.12.13"
+    "@jest/types" "^28.1.1"
+    "@types/stack-utils" "^2.0.0"
+    chalk "
