@@ -5464,3 +5464,24 @@ jest-resolve@^27.4.2, jest-resolve@^27.5.1:
     resolve.exports "^1.1.0"
     slash "^3.0.0"
 
+jest-runner@^27.5.1:
+  version "27.5.1"
+  resolved "https://registry.yarnpkg.com/jest-runner/-/jest-runner-27.5.1.tgz#071b27c1fa30d90540805c5645a0ec167c7b62e5"
+  integrity sha512-g4NPsM4mFCOwFKXO4p/H/kWGdJp9V8kURY2lX8Me2drgXqG7rrZAx5kv+5H7wtt/cdFIjhqYx1HrlqWHaOvDaQ==
+  dependencies:
+    "@jest/console" "^27.5.1"
+    "@jest/environment" "^27.5.1"
+    "@jest/test-result" "^27.5.1"
+    "@jest/transform" "^27.5.1"
+    "@jest/types" "^27.5.1"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    emittery "^0.8.1"
+    graceful-fs "^4.2.9"
+    jest-docblock "^27.5.1"
+    jest-environment-jsdom "^27.5.1"
+    jest-environment-node "^27.5.1"
+    jest-haste-map "^27.5.1"
+    jest-leak-detector "^27.5.1"
+    jest-message-util "^27.5.1"
+    j
