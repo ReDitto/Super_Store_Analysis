@@ -5818,4 +5818,21 @@ jss-plugin-nested@^10.5.1:
 jss-plugin-props-sort@^10.5.1:
   version "10.9.0"
   resolved "https://registry.yarnpkg.com/jss-plugin-props-sort/-/jss-plugin-props-sort-10.9.0.tgz#30e9567ef9479043feb6e5e59db09b4de687c47d"
-  integrity sha512-7A76HI8bzwqrsMOJTWKx/uD5v+U8piLnp5bvru7g/3ZEQOu1+PjHvv7bFdNO3DwNPC9oM0a//
+  integrity sha512-7A76HI8bzwqrsMOJTWKx/uD5v+U8piLnp5bvru7g/3ZEQOu1+PjHvv7bFdNO3DwNPC9oM0a//KwIJsIcDCjDzw==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.9.0"
+
+jss-plugin-rule-value-function@^10.5.1:
+  version "10.9.0"
+  resolved "https://registry.yarnpkg.com/jss-plugin-rule-value-function/-/jss-plugin-rule-value-function-10.9.0.tgz#379fd2732c0746fe45168011fe25544c1a295d67"
+  integrity sha512-IHJv6YrEf8pRzkY207cPmdbBstBaE+z8pazhPShfz0tZSDtRdQua5jjg6NMz3IbTasVx9FdnmptxPqSWL5tyJg==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.9.0"
+    tiny-warning "^1.0.2"
+
+jss-plugin-vendor-prefixer@^10.5.1:
+  version "10.9.0"
+  resolved "https://registry.yarnpkg.com/jss-plugin-vendor-prefixer/-/jss-plugin-vendor-prefixer-10.9.0.tgz#aa9df98abfb3f75f7ed59a3ec50a5452461a206a"
+  integrity sha512-MbvsaXP7iiVdYVSEoi+blrW+AYnTDvHTW6I6zqi7JcwXdc6I9Kbm234nEblayhF38E
