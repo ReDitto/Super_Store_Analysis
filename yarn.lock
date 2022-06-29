@@ -6621,4 +6621,22 @@ postcss-attribute-case-insensitive@^5.0.1:
 postcss-browser-comments@^4:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/postcss-browser-comments/-/postcss-browser-comments-4.0.0.tgz#bcfc86134df5807f5d3c0eefa191d42136b5e72a"
-  integrity sha512-X9X9/WN3KIvY9+hNERUqX9gncsgBA25XaeR+jshHz2j8+sYyHktHw1JdKuMjeLpGktXidqDhA7b/qm1mrBDmg
+  integrity sha512-X9X9/WN3KIvY9+hNERUqX9gncsgBA25XaeR+jshHz2j8+sYyHktHw1JdKuMjeLpGktXidqDhA7b/qm1mrBDmgg==
+
+postcss-calc@^8.2.3:
+  version "8.2.4"
+  resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-8.2.4.tgz#77b9c29bfcbe8a07ff6693dc87050828889739a5"
+  integrity sha512-SmWMSJmB8MRnnULldx0lQIyhSNvuDl9HfrZkaqqE/WHAhToYsAvDq+yAsA/kIyINDszOp3Rh0GFoNuH5Ypsm3Q==
+  dependencies:
+    postcss-selector-parser "^6.0.9"
+    postcss-value-parser "^4.2.0"
+
+postcss-clamp@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-clamp/-/postcss-clamp-4.1.0.tgz#7263e95abadd8c2ba1bd911b0b5a5c9c93e02363"
+  integrity sha512-ry4b1Llo/9zz+PKC+030KUnPITTJAHeOwjfAyyB60eT0AorGLdzp52s31OsPRHRf8NchkgFoG2y6fCfn1IV1Ow==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+postcss-color-functional-notation@^4.2.3:
+  version 
